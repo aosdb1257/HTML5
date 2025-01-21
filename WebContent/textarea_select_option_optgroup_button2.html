@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<form action="/HTML/main.jsp" method="post">
+			<label for="comments">의견:</label>
+			<textarea id="comments" rows="4" cols="50" placeholder="의견을 작성해주세요"></textarea>
+			<br><br>
+			
+			<label for="hobby">취미</label>
+			<select id = "hobby" name="hobby">
+				<optgroup label="운동">
+					<option value="soccer">축구</option>
+					<option value="basketball">농구</option>
+				</optgroup>
+				<optgroup label="예술">
+					<option value="drawings">그림 그리기</option>
+					<option value="music">음악 감상</option>
+				</optgroup>    
+			</select>
+			<br><br>
+			<button type="submit">제출하기</button>
+			<button type="reset">초기화</button>
+		</form>
+	</body>
+</html>
